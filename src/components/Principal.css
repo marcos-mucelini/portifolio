@@ -1,0 +1,49 @@
+.principal-sessao {
+  background-color: var(--color-off-white);
+  color: var(--color-dark-gray);
+  align-items: center;
+}
+
+.principal-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.principal-bem-vindo {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-pink);
+  width: fit-content;
+}
+
+.principal-nome {
+  font-size: 70px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.principal-apresentacao {
+  font-size: 30px;
+  font-weight: lighter;
+  font-stretch: condensed; /* ou ultra-condensed, extra-condensed */
+  width: fit-content;
+  max-width: 643px;
+  text-align: justify;
+}
+
+.principal-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid var(--color-pink);
+  color: var(--color-pink);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  max-width: fit-content;
+}
+.principal-btn:hover {
+  background-color: var(--color-pink);
+  color: var(--color-off-white);
+}
