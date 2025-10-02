@@ -1,12 +1,49 @@
-# React + Vite
+# 🚀 Template React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório é um **modelo pronto** para você começar seus projetos em **React** usando o **Vite**.  
+A ideia é: você não precisa configurar tudo do zero, já está tudo pronto para começar a programar! 🎉
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 O que estamos usando aqui?
 
-## Expanding the ESLint configuration
+- **React** → Biblioteca que usamos para criar as telas do site/aplicação.
+- **Vite** → Ferramenta que deixa o projeto rápido de rodar e fácil de configurar.
+- **ESLint + Prettier** → São "ajudantes" que deixam o código mais organizado e bonito (não se preocupe, já estão configurados).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Como rodar o projeto no seu computador
+
+1. Abra o projeto no **VSCode**.
+
+2. No **terminal** do VSCode, digite o comando para instalar as dependências (os “pacotes” que o projeto precisa):
+
+   ```bash
+   npm install
+   ```
+
+3. Depois, para rodar o projeto, use o comando:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Estrutura de pastas
+
+```
+.
+├── public/          # Arquivos que ficam "públicos" (ex: imagens)
+├── src/             # Aqui fica o código que você vai mexer
+│   ├── assets/      # Imagens, ícones, fontes...
+│   ├── components/  # Pequenos blocos de código (ex: botões, menus)
+│   ├── pages/       # Páginas da aplicação
+│   ├── App.jsx      # Onde a parte visual começa
+│   ├── index.css    # Estilos (cores, fontes, etc)
+│   ├── main.jsx     # Ponto de entrada do projeto
+├── index.html       # Arquivo principal HTML
+├── package.json     # Arquivo que guarda as infos do projeto
+└── vite.config.js   # Configuração do Vite
+
+```

@@ -1,20 +1,12 @@
-import Menu from "./components/Menu";
-
-import "./App.css";
-import Principal from "./components/Principal";
-import SobreMim from "./components/Sobre";
+import Sobre from "./pages/Sobre";
 
 function App() {
   return (
     <>
-      <Menu />
-      <main>
-        <Principal />
-        <SobreMim />
-      </main>
-      {/* <Footer /> */}
+      <Sobre />
     </>
   );
 }
 
+// Exporta o componente App para ser usado em outros arquivos (ex: main.jsx)
 export default App;
