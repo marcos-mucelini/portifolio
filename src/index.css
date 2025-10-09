@@ -9,27 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.light {
-  --color-bg: #fff9f3;
-  --color-h1: #0e1f39;
-  --color-text: #313234;
-  --color-highlight: #ff31ad;
-}
-
-.dark {
-  --color-bg: #0e1f39;
-  --color-h1: #ffffff;
-  --color-text: #b0b5bc;
-  --color-highlight: #ff31ad;
-}
-
 body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
 }
 
-h1 {
-  color: var(--color-h1);
-}

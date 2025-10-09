@@ -1,5 +1,6 @@
-import "./TextoDestacado.css";
+export default function TextoDestacado({texto}){
 
-export default function TextoDestacado({ texto }) {
-  return <span>{texto}</span>;
+    return(
+        <p>{texto}</p>
+    )
 }
