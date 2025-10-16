@@ -1,6 +1,5 @@
-span {
-  color: var(--color-highlight);
-  font-size: 20px;
-  font-weight: 600;
-  margin: 0px;
+.texto-destacado {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF31AD;
 }

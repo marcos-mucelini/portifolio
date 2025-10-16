@@ -1,4 +1,5 @@
 import TextoDestacado from "../components/TextoDestacado"
+import TextoPrincipal from "../components/TextoPrincipal"
 import "./Principal.css"
 
 export default function Principal() {
@@ -8,9 +9,10 @@ export default function Principal() {
             <TextoDestacado 
                 texto={"Olá meu nome é"}
             />
-            
 
-            <h1>Marcos Augusto</h1>
+            <TextoPrincipal
+                texto={"Marcos Augusto"}
+            />
             <p>Tenho 27 anos, gosto de Rock, anime e gatinhos.</p>   
         </section>
     )

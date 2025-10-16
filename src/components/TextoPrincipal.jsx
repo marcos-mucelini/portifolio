@@ -1,5 +1,8 @@
-import "./TextoPrincipal.css";
+import "./TextoPrincipal.css"
 
-export default function TextoPrincipal({ texto }) {
-  return <h1>{texto}</h1>;
+export default function TextoPrincipal({texto}){
+
+    return(
+        <h1 className="texto-principal">{texto}</h1>
+    )
 }
